@@ -1,3 +1,4 @@
-var quote = "Learn from yesterday, live for today, hope for tomorrow";
-var author = "Albert Einstein";
-console.log("".concat(author, " once said, \"").concat(quote));
+var quote = "Learn from yesterday,lived for today,hope for tommorrow,";
+var famous_person = "Elbert Einstein";
+var message = "".concat(famous_person, "once said ").concat(quote);
+console.log(message);
