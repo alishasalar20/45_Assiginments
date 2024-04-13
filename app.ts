@@ -1,2 +1,4 @@
-let personName: string="ERIC"
-console.log(`hello ${personName} would you like to laern python today?`);
+let quote: string= "Learn from yesterday, live for today, hope for tomorrow";
+let author: string= "Albert Einstein";
+console.log(`${author} once said, "${quote}`);
+

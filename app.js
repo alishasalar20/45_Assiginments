@@ -1,2 +1,3 @@
-var personName = "ERIC";
-console.log("hello ".concat(personName, " would you like to laern python today?"));
+var quote = "Learn from yesterday, live for today, hope for tomorrow";
+var author = "Albert Einstein";
+console.log("".concat(author, " once said, \"").concat(quote));
