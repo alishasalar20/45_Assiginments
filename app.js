@@ -1,19 +1,32 @@
-var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-};
-var places = ['Itly', 'Germany', 'time square', 'Agra', 'Efil tower'];
-console.log('original' + places);
-console.log('copy' + __spreadArray([], places, true).sort());
-console.log('original' + places);
-console.log('copy' + __spreadArray([], places, true).sort().reverse());
-console.log('original' + places);
-console.log('original' + places.reverse());
-console.log('original' + places.reverse());
-console.log('original' + places.sort());
-console.log('original' + places.sort().reverse());
+"use strict";
+let Guest_list = [`Rohan`, `fatima`, `salar`];
+// for(let i=0; i<Guest_list.length; i++){
+// console.log(`Dear Mr.` + Guest_list[i] + `,\n\nIt my pleasure to invite you in our dinner\n\n ThankYou `)
+// }
+let absent_Guest = `Rohan`;
+let new_Guest = `NABEEL`;
+Guest_list[0] = new_Guest;
+// for(let i=0; i<Guest_list.length; i++){
+//     console.log(`Dear Mr.` + Guest_list[i] + `,\n\nIt my pleasure to invite you in our dinner\n\n ThankYou\n\n `)
+// }
+// console.log(`MR ${absent_Guest} is not coming in the dinner `)
+// console.log(`Gos News! we fine a big table so we are inviting a 3 more guest`);
+Guest_list.unshift(`sir zia khan`);
+Guest_list.splice(2, 0, `KAFEEL AHMED`);
+Guest_list.push(`SAAD SALAR`);
+// for (let i=0; i<Guest_list.length; i++){
+// console.log(`Dear Mr.` + Guest_list[i] +`, \n\n It my pleasure to invite you in our dinner\n\n ThankYou \n\n `)
+// }
+// console.log(`\nsorry we can not arrange big table only two people will be invited`);
+while (Guest_list.length > 2) {
+    let remove_Guest = Guest_list;
+    // console.log(`Dear Mr. ${remove_Guest} You are still not invited for dinner`)
+}
+// for(let i=0; i<Guest_list.length; i++){
+// console.log(`Dear Mr.  ` + Guest_list[i] + `n\n\ You are still invited. n\n\ Thankyou n\n `)
+// };
+// I remove all guest
+Guest_list.splice(0, 2);
+console.log(Guest_list);
+// EXCERISE 19
+console.log(`Total numbers of guest are ${Guest_list.length}`);
