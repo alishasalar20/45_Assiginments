@@ -1,31 +1,10 @@
-var car = "subaru";
-// test 1 Equality comparsion
-console.log("Is car == `subaru` I predict true");
-console.log(car == "subaru");
-// test 2 strict equality comparsion
-console.log("Is car === `subaru` I predict true");
-console.log(car === "subaru");
-// test 3 Inequality comparsion
-console.log("Is car != `subaru` I predict false. ");
-console.log(car != "subaru");
-// test 4 strict inequality comparsion
-console.log("Is car !== `subaru` I predict false");
-console.log(car !== "subaru");
-// test 5 less than comparsion
-console.log("Is car< `subaru` I predict false.");
-console.log(car < "subaru");
-// test 6 greater than comparsion
-console.log("Is car > `subaru` I predict false");
-console.log(car > "subaru");
-// test 7 less than or equal comparsion
-console.log("Is car <= `subaru` I predict true.");
-console.log(car <= "subaru");
-// test 8 greater than or equal comparion
-console.log("Is car >= `subaru` I predict true.");
-console.log(car >= "subaru");
-// test 9 checking truthiness
-console.log("Is car? `subaru` I predict true.");
-console.log(car);
-// test 10 checking falsiness
-console.log("Is Icar? I predict false.");
-console.log(car);
+var alien_Color = "yellow";
+if (alien_Color === "yello") {
+    console.log("the player just earned 5 points");
+}
+// write one version of this program that passes the if test and another test
+// (the version that fail will have no output)
+alien_Color = "red";
+if (alien_Color === "yellow") {
+    console.log("the player just earned 5 points");
+}
