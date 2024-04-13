@@ -1,6 +1,7 @@
-let countries : string [] = [`U.S.A`, `England`,`Azerbaijan`,`Turkey`]
-console.log('list of countries')
+let newArray: string[] = [`sir zia khan`, `sir ameen`, `sir ahmed`];
 
-for(let top of countries){
-    console.log(top)
-}
+// Accessing arry by index
+console.log(newArray[5])
+
+// correct the error
+console.log(newArray)
