@@ -1,4 +1,4 @@
-let quote: string= "Learn from yesterday,lived for today,hope for tommorrow,";
-let famous_person: string= "Elbert Einstein";
-let message=`${famous_person}once said ${quote}`;
-console.log(message);
+let personName=`\n\t ALISHA KAFEEL\t\n`;
+console.log(personName);
+let stripped: string = personName.trim();
+console.log(stripped);
