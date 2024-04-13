@@ -1,11 +1,18 @@
-var alien_Color = "yellow";
-if (alien_Color === "yellow") {
-    console.log("the player just earned 5 points for shooting the alien");
+var age = 26;
+// 
+if (age > 2) {
+    console.log("person is a baby");
 }
-else {
-    console.log('the player just earned 10 points');
+else if (age >= 2 && age < 4) {
+    console.log("person is a toddler");
 }
-alien_Color = "red";
-if (alien_Color === "yellow") {
-    console.log("the player just earned 5 points for shooting the alien");
+else if (age >= 4 && age < 13) {
+    console.log("person is a kid");
 }
+else if (age >= 13 && age < 20) {
+    console.log("the person is a teenager");
+}
+else if (age >= 20 && age < 65) {
+    console.log("person is a adult");
+}
+console.log("person is an elder");
