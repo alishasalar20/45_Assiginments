@@ -1,4 +1,2 @@
-console.log(5 + 3);
-console.log(11 - 3);
-console.log(4 * 2);
-console.log(16 / 2);
+let favouriteNumber: number = 20
+console.log(`My favourite number is ${favouriteNumber}`);
