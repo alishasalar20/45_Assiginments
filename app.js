@@ -1,5 +1,6 @@
-var members = ["alisha", "rohan", "eshah", "laiba"];
-var message = "would you like to spend this ramadan with us";
-for (var i = 0; i < members.length; i++) {
-    console.log(message + members[i]);
+var transportation = ["bike", "buses", "cars", "cycle"];
+for (var i = 0; i < transportation.length; i++)
+    ;
+{
+    console.log("I Would like to own  a " + transportation[i]);
 }
