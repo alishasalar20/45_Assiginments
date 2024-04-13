@@ -1,5 +1,4 @@
-// excerise 10
-// My name is ALISHA
-//Dated: 23/2/24
-//this program will run simple code just like hello world
-console.log(`hello world simple program`)
+let members: string[] =[`amna`,`muniba`,`rohan,`,`alisha`];
+for(let i=0; i<members.length; i++);{
+    console.log(members[i]);
+}
