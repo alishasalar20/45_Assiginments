@@ -1,12 +1,38 @@
-let alien_Color: string = "yellow";
-
-if (alien_Color === "yello"){
-    console.log("the player just earned 5 points");
+let alien_Colors: string = "green"
+// version 1 of this program
+if(alien_Colors === "green"){
+    console.log("player earned 5 points");
+} else if(alien_Colors === "yellow"){
+    console.log("player earned 10 points");
+} else if (alien_Colors === "red"){
+    console.log("player earned 15 points");
 }
+else{
+    console.log("please select right color")
+}
+// version 2 of the program
+alien_Colors = "yellow"
 
-// write one version of this program that passes the if test and another test
-// (the version that fail will have no output)
- alien_Color ="red";
-if  (alien_Color === "yellow"){
-    console.log("the player just earned 5 points");
+if(alien_Colors === "green"){
+    console.log("player earned 5 points");
+} else if(alien_Colors === "yellow"){
+    console.log("player earned 10 points");
+} else if (alien_Colors === "red"){
+    console.log("player earned 15 points");
+}
+else{
+    console.log("please select right color")
+}
+// version 3 of this program
+alien_Colors = "red"
+
+if(alien_Colors === "green"){
+    console.log("player earned 5 points");
+} else if(alien_Colors === "yellow"){
+    console.log("player earned 10 points");
+} else if (alien_Colors === "red"){
+    console.log("player earned 15 points");
+}
+else{
+    console.log("please select right color")
 }
