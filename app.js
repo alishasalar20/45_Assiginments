@@ -1,11 +1,19 @@
-var Guest_list = ["Rohan", "fatima", "salar"];
-for (var i = 0; i < Guest_list.length; i++) {
-    console.log("Dear Mr." + Guest_list[i] + ",\n\nIt my pleasure to invite you in our dinner\n\n ThankYou ");
+"use strict";
+let Guest_list = [`Rohan`, `fatima`, `salar`];
+for (let i = 0; i < Guest_list.length; i++) {
+    console.log(`Dear Mr.` + Guest_list[i] + `,\n\nIt my pleasure to invite you in our dinner\n\n ThankYou `);
 }
-var absent_Guest = "Rohan";
-var new_Guest = "NABEEL";
+let absent_Guest = `Rohan`;
+let new_Guest = `NABEEL`;
 Guest_list[0] = new_Guest;
-for (var i = 0; i < Guest_list.length; i++) {
-    console.log("Dear Mr." + Guest_list[i] + ",\n\nIt my pleasure to invite you in our dinner\n\n ThankYou\n\n ");
+for (let i = 0; i < Guest_list.length; i++) {
+    console.log(`Dear Mr.` + Guest_list[i] + `,\n\nIt my pleasure to invite you in our dinner\n\n ThankYou\n\n `);
 }
-console.log("MR ".concat(absent_Guest, " is not coming in the dinner "));
+console.log(`MR ${absent_Guest} is not coming in the dinner `);
+console.log(`Gos News! we fine a big table so we are inviting a 3 more guest`);
+Guest_list.unshift(`sir zia khan`);
+Guest_list.splice(2, 0, `KAFEEL AHMED`);
+Guest_list.push(`SAAD SALAR`);
+for (let i = 0; i < Guest_list.length; i++) {
+    console.log(`Dear Mr.` + Guest_list[i] + `, \n\n It my pleasure to invite you in our dinner\n\n ThankYou \n\n `);
+}
